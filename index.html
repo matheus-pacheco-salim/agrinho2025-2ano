@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horta na Porta - Concurso Agrinho 2025</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<div>
+  <button onclick="scrollToBottom()" id="btnFim" title="Ir para o fim">⬇️ Ir para o fim</button>
+
+  <script>
+    // Função para rolar suavemente até o final da página
+    function scrollToBottom() {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    // Mostrar/ocultar o botão ao rolar
+    window.addEventListener('scroll', function () {
+      const btn = document.getElementById("btnFim");
+      if (document.body.scrollTop < 100 && document.documentElement.scrollTop < 100) {
+        btn.style.display = "block";
+      } else {
+        btn.style.display = "none";
+      }
+    });
+  </script>
+</div>
+
+<body>
+  <header>
+    <h1>🌱 Horta na Porta</h1>
+    <h2>Uma ponte entre o campo e a cidade</h2>
+    <h3>Do campo ou da cidade para a sua mesa, com inovação e responsabilidade</h3>
+  </header>
+
+  <nav>
+    <a href="#proposta">Proposta</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#futuro">Objetivo Futuro</a>
+    <a href="#como-funciona">Como Funciona</a>
+    <a href="#tecnologia">Tecnologia</a>
+    <a href="#galeria">Galeria</a>
+  </nav>
+
+  <main>
+    <section id="proposta">
+      <h2>Proposta</h2>
+      <p>O projeto "Horta na Porta" é um projeto que visa conectar pequenos produtores urbanos e rurais a consumidores
+        das cidades, promovendo a entrega de alimentos orgânicos e frescos diretamente da horta para a casa das pessoas,
+        promovendo o consumo consciente e sustentável.</p>
+    </section>
+
+    <section id="objetivos">
+      <h2>Objetivos</h2>
+      <ul>
+        <li>Promover alimentação saudável nas cidades</li>
+        <li>Estimular a agricultura familiar e urbana, com produção em hortas locais</li>
+        <li>Reduzir o desperdício e os custos com transporte</li>
+        <li>Promover uma entrega ecológica e mais sustentável</li>
+      </ul>
+    </section>
+
+    <section id="futuro">
+      <h2>Objetivo Futuro - Horta na Escola</h2>
+      <ul>
+        <li>Fomentar o empreendedorismo estudantil, planejando a implantação de hortas nas escolas, onde os alunos
+          aprendem sobre agricultura, tecnologia e sustentabilidade, ao mesmo tempo em que produzem alimentos.
+        </li>
+      </ul>
+    </section>
+
+    <section id="como-funciona">
+      <h2>Como Funciona</h2>
+      <p>- Por meio de uma plataforma digital simples (site ou aplicativo), os consumidores escolhem hortaliças, legumes
+        e
+        frutas disponíveis em hortas cadastradas - hortas próximas. O produtor organiza a colheita e realiza a entrega
+        em embalagens ecológicas.</p>
+      <p>- Com o tempo, podem ser instaladas hortas nas escolas, onde os alunos das escolas possam cultivar as
+        hortaliças e os vegetais consumidos na escola, através deprojetos de contraturno escolar</p>
+    </section>
+
+    <section id="tecnologia">
+      <h2>Inovação e Tecnologia</h2>
+      <p>O projeto propõe o uso de uma plataforma, com produtores cadastrados (com localização para mapear as hortas),
+        para a rastreabilidade dos alimentos e um sistema de pontos para fidelização dos clientes.</p>
+    </section>
+
+    <section id="galeria">
+      <h2>Galeria de fotos</h2>
+      <div class="gallery">
+        <div>
+          <img src="https://images.unsplash.com/photo-1603032248720-f8b94f742b35" alt="Horta urbana">
+          <p>teste</p>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786" alt="Entrega de alimentos frescos">
+          <p>teste</p>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1582281298058-a98c5c60c89b" alt="Crianças cuidando de horta">
+          <p>teste</p>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1611259212455-9c3c1d54e7bc" alt="Tecnologia na agricultura">
+          <p>teste</p>
+        </div>
+    </section>
+
+    <section id="galeria">
+      <div class="gallery">
+        <div>
+          <img src="https://images.unsplash.com/photo-1603032248720-f8b94f742b35" alt="Horta urbana">
+          <p>teste</p>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786" alt="Entrega de alimentos frescos">
+          <p>teste</p>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1582281298058-a98c5c60c89b" alt="Crianças cuidando de horta">
+          <p>teste</p>
+        </div>
+        <div>
+          <img src="img/igor-miske-bsMFZ1957Zg-unsplash.jpg" alt="Tecnologia na agricultura">
+          <p>Foto de Igor Miske na Unsplash</p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section>
+      <div class="espaçamento final" <h2>espaçamento final</h2>
+        <p> espaçamento final</p>
+      </div>
+    </section>
+
+
+  </main>
+
+  <div>
+    <button onclick="scrollToTop()" id="btnTopo" title="Voltar ao topo">⬆️ voltar ao topo</button>
+
+    <script>
+      // Função para rolar suavemente para o topo
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      // Mostrar/ocultar o botão ao rolar
+      window.onscroll = function () {
+        const btn = document.getElementById("btnTopo");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          btn.style.display = "block";
+        } else {
+          btn.style.display = "none";
+        }
+      };
+    </script>
+  </div>
+  
+  <footer>
+    <p>Projeto Agrinho 2025 | Criado por xxxxxxxx | Foco na conexão campo-cidade</p>
+    <p> Criado por xxxxxx | Colégio Cívico Militar - Monteiro Lobato - Umuarama Pr</p>
+  </footer>
+</body>
+
+</html>
